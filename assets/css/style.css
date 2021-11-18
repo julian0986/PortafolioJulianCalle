@@ -1,0 +1,13 @@
+#infop {
+  display: flex;
+}
+#infop img {
+  width: 100px;
+  height: auto;
+}
+#infop #contacto {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
