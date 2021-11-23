@@ -1,15 +1,27 @@
+@import "variables";
 #infop{
     display: flex;
+    flex-direction: column;
+    background-color: $colorBaln;
+    padding: 10px;
+    border-radius: 20px;
 
     img{
-        width: 100px;
+        width: 100%;
         height: auto;
+        border-radius: 40px;
     }
     
 
     #contacto{
         display: flex;
         justify-content: space-between;
+
+        h2{
+            font-family: $fuente1;
+            font-size: 24px;
+            font-weight: 600;
+        }
     }
     
 

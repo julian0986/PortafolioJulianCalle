@@ -1,13 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 40px 5px 40px;
+  background-color: lightgrey;
+}
+
 #infop {
   display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
 }
 #infop img {
-  width: 100px;
+  width: 100%;
   height: auto;
+  border-radius: 40px;
 }
 #infop #contacto {
   display: flex;
   justify-content: space-between;
+}
+#infop #contacto h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
